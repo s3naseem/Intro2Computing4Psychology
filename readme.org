@@ -1,5 +1,6 @@
 #+Title: Introduction to Computing for Psychology Students
 #+Author: Britt Anderson
+Fork by Sarah Naseem 
 
 * Overview
   This repository houses material I use in teaching at the University of Waterloo (Canada). Psychology undergraduates are usually Arts students who have limited quantitative and computing backgrounds. In order to assist them to use their computers as research tools I have organized a skills course to give them a brief background and exposure to several computing topics: 
