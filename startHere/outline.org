@@ -20,7 +20,7 @@
       - function
    6. Produce an Rmd file from the above
    7. And export it to an html file that we can open in a web browser and that displays correctly. 
-   For the detailed instructions on the above steps consult [[file:~/gitRepos/introComp4Psych/topics/rStudioWinMacFirstSteps.org][the first
+   For the detailed instructions on the above steps consult [[file:../topics/rStudioWinMacFirstSteps.org][the first
    steps Rstudio file in the topics directory.]]
 *** Warning
     Don't try to use R in Linux until until you have a working
@@ -34,7 +34,7 @@
 ** Files
     1. [[file:../topics/rStudioWinMacFirstSteps.org][rStudioWinMacFirstSteps.org]]   
     2. [[file:../assessments/rStudioInstallationWinMacAssessment.org][R Studio Installation Assessment]]
-    3. [[file:../assessments/rmd2htmlAssessment.org][Rmd to HTML Assessment]]
+    3. [[file:../assessments/firstRmdAssessment.org][Rmd to HTML Assessment]]
 ** Videos
    1. [[https://vimeo.com/450563454][Getting Started with RStudio]]
    2. [[https://vimeo.com/450719112][Download R]]
@@ -48,7 +48,7 @@
   2. Github signup and walkthrough
      To participate at Github you have to be a member. It is free. Once you have done so, /fork/ this repository.
 ** Files
-   1. [[file:~/gitRepos/introComp4Psych/topics/githubIDBasics.org][Github Topic File]]
+   1. [[file:../topics/githubIDBasics.org][Github Topic File]]
    2. [[file:../assessments/githubIDAssessment.org][Github ID Assessment]]
 ** Videos
    1. [[https://vimeo.com/450563119][Github Introduction]]
@@ -126,7 +126,7 @@
    4. [[https://vimeo.com/456349697][Github Enabled Tools]]
    5. [[https://vimeo.com/456349516][The Github Pull Request Assessment Reviewed]]
 * Beginning Programming (with Python as an example)
-  What is programming, and what are some of the basics of approach and terminology? Using python as a en example basic concepts such as variables, loops, indexing and assignments are illustrated. 
+  What is programming, and what are some of the basics of approach and terminology? Using python as a en example basic concepts such as variables, loops, indexing and assignments are illustrated. We will also begin to examine how we can mix code with text in Emacs in preparing to generate reproducible research reports that mix code, data, text, and references. Our tool for that is called org babel.
 ** Files
    1. [[file:../topics/beginningPython.org][Beginning Python]]
 *** Assessments
@@ -134,32 +134,96 @@
     2. [[file:../assessments/hangmanPython.org][Hangman Python]]
 ** Videos
 *** Topics
-    1. What is programming?
-    2. Org-babel: blending text and code in Emacs.
-    3. Programming vocabulary.
-    4. Some Useful Tools
+    1. [[https://vimeo.com/458286292][An intro]] to what is programming?
+    2. [[https://vimeo.com/458286273][What to think about]] _before_ you program.
+    3. [[https://vimeo.com/458285882][Org-babel]]: blending text and code in Emacs ( a longer one)
+    4. [[https://vimeo.com/458286198][Programming concepts]] and terminology.
 *** Assessments
-    1. For loop in python
-    2. Hangman in Python
+    1. [[https://vimeo.com/458286064][Hints and advice]] for completing "For loop in python" and  "Hangman in Python"
 * R
 ** Getting R/Rstudio for Linux
-
+** Repeating the Rmd exercises in Linux
+** Repeating Python exercises in R
+** Files
+   1. [[file:../topics/installingR.org][Installing R]]
+   2. [[file:../topics/beginningR.org][Beginning R]]
+   3. [[file:../assessments/accessingDatainRAssessment.org][Accessing Data in R (assessment)]]
+   4. [[file:../assessments/hangmanRAssessment.org][Hangman in R (assessment)]]
+** Videos
+   1. [[https://vimeo.com/460263215][Introduction to this Module]]
+   2. [[https://vimeo.com/460262566][Installing R/Rstudio on Linux (Xubuntu]])
+   3. [[https://vimeo.com/460262930][Beginning R Walkthrough]]
+   4. [[https://vimeo.com/460262936][Assessment Comments]]
 * Data Handling
-
+** Working with Data Python
+*** Files
+    1. Topic: [[file:../topics/pythonData.org][Beginning Pandas]]
+    2. Assessment: [[file:../assessments/dataPandasAssessment.org][Pandas Assessment]]
+*** Videos
+    1. [[https://vimeo.com/462705773][Intro to the Module]]
+    2. [[https://vimeo.com/462705737][Installing Pandas]]
+    3. [[https://vimeo.com/462705724][Requesting Data with Python]]
+    4. [[https://vimeo.com/462705656][Unzipping Data with Python]]
+    5. [[https://vimeo.com/462705437][Reading in a CSV File with Pandas/Python]]
+    6. [[https://vimeo.com/462706049][Installing an Emacs Package to Improve Python]] Coding.
 * Basic Plotting
-
-* Programming Psychology Experiments
-
+** Plotting in R: A tale of two approachs
+   R has two main contenders in the plotting domain: base and ggplot. This topic takes a look at both. 
+** Plotting in Python: An evolving experience
+   Plotting in python has come along way. The workhorse library is matplotlib. This library is demonstrated for making an interaction plot. 
+** A slight digression on Jupyter Notebooks  (Planned)
+*** Files
+    1. [[file:../topics/plottingRandPy.org][Plotting in R and Python]] (topic)
+    2. [[file:../assessments/plottingRandPyAssessment.org][Plotting in R and Python]] (assessment)
+*** Videos
+    1. [[https://vimeo.com/463525019][Intro to Plotting in R and Python]]
+    2. [[https://vimeo.com/463524914][First Steps with Base Plot in R]]
+    3. [[https://vimeo.com/463524870][Changing the Appearance of a Base R Plot]]
+    4. [[https://vimeo.com/463524796][Using GGPlot to Plot in R]]
+    5. [[https://vimeo.com/463524647][Python Plotting with Matplotlib]]
 * Report Writing
-  
+  To be able to produce a reproducible research report you need to be able to write and blend code, text, analysis, graphics, and references. In this topic we will use Emacs, orgmode, and Babel with help from LaTeX and R to demonstrate the use of all these features
 ** Org, markdown, and related dialects and tools
-
 ** LaTeX
-
 ** Reference Management
-
 *** Biblatex (Bibtex)
-
 ** Mixing Code and Text
-
-* Presentations
+** Files
+   1. [[file:../topics/reportWriting.org][Report Writing]] (topic)
+   2. [[file:../assessments/reportGenAssessment.org][Report Writing]] (assessment)
+   3. [[file:../codeExamples/reportGen/][Report Generation Practice Files]] (directory)
+** Videos
+   1. [[https://vimeo.com/465412304][Introduction to Report Writing Topic]]
+   2. [[https://vimeo.com/465412227][What Is a Reproducible Research Report?]]
+   3. [[https://vimeo.com/465412148][What is LaTeX (and how do I get it)?]]
+   4. [[https://vimeo.com/465411974][Getting PdfTools for Emacs]]
+   5. [[https://vimeo.com/465411965][Demonstrating Report Writing (Basics)]]
+   6. [[https://vimeo.com/465411872][Demonstrating Report Writing (code and graphics)]]
+   7.  [[https://vimeo.com/465411716][Demonstrating Report Writing (citations/references)]]
+* Programming Psychology Experiments
+** Many tools. Many Choices.
+** Which language should you use?
+   - Matlab and PsychToolbox
+   - Javascript and JSPsych
+   - Python and PsychoPy - recommended
+     - How to install it
+     - How to use it (Posner Demo)
+*** Files
+    1. [[file:../topics/installTestPsychopy.org][Programming Experiments & Installing and Testing Psychopy]] (topic file)
+    2. [[file:../assessments/psychopyAssessment.org][Coding the Posner Task]] (assessment file)
+*** Videos
+    1. [[https://vimeo.com/469970965][Intro to Coding Experiments]]
+    2. [[https://vimeo.com/469970967][Which Language to Use?]]
+    3. [[ https://vimeo.com/460262765][Installing and Testing Psychopy]]
+    4. [[https://vimeo.com/469968313][Posner Demo Assessment Introduction]]
+* Presentations (Extra WIP)
+** From Text File to Slideshow
+*** org-tree-slide
+*** beamer
+*** reveal-js
+*** And many more. 
+** Files
+** Videos
+* Final Projects
+  Making a reproducible report. Putting it altogether.
+  Detailed instructions can be found [[file:../assessments/finalProjectAssessment.org][here]].
